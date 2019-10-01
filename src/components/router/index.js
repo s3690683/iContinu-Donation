@@ -3,7 +3,7 @@ import VueRouter from "vue-router";
 import NProgress from "nprogress";
 
 import routes from "./routes";
-import store from "/Users/DIPESH/Desktop/Project/Packt project/icontinu_donationv2-master/icontinu_donationv2-master/icontinuVue/src/store";
+import store from "/src/store";
 
 Vue.use(VueRouter);
 
