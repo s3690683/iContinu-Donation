@@ -3,7 +3,7 @@ import VueRouter from "vue-router";
 import NProgress from "nprogress";
 
 import routes from "./routes";
-import store from "/src/store";
+import store from "../../store";
 
 Vue.use(VueRouter);
 

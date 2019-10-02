@@ -43,9 +43,10 @@ export default {
       const payload = {
         //firstName: this.firstName,
         //lastName: this.lastName,
-        email: this.email,
-        password: this.password,
-        confirmPassword: this.confirmPassword
+        Email: this.email,
+        Password: this.password,
+        ConfirmPassword: this.confirmPassword,
+        Role:'donors.owner',
       };
       this.$store
         .dispatch("register", payload)

@@ -45,7 +45,7 @@ export default {
   methods: {
     login() {
       const payload = {
-        email: this.email,
+        username: this.email,
         password: this.password
       };
       this.$store
